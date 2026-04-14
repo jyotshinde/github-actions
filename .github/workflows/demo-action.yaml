@@ -1,0 +1,11 @@
+name: demo-workflow
+on: workflow_dispatch
+jobs:
+  demo-job:
+    runs-on: ubuntu-latest
+    steps:
+      - name: demo-step-1
+        run: echo "this is demo step 1"
+      - name: demo-step-2
+        run: echo "this is demo step 2"
+        
